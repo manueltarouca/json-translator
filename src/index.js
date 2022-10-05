@@ -31,7 +31,7 @@ const translateLog = async (item) => {
 
 async function main() {
   const result = await translateLog(data);
-  fs.writeFileSync(`./data/translated-${TARGET_LANGUAGE}.json`, JSON.stringify(result, null, 2), { encoding: 'utf-8' });
+  fs.writeFileSync(`./data/translated-${TARGET_LANGUAGE}.json`, JSON.stringify(result, null, 4), { encoding: 'utf-8' });
 }
 
 main()
