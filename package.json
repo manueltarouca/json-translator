@@ -1,0 +1,17 @@
+{
+  "name": "test-translation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "translate": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "translate": "^1.4.1",
+    "ts-node": "^10.9.1"
+  }
+}
